@@ -1,0 +1,44 @@
+html {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	font-family: Tahoma, sans-serif;
+}
+
+body {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+section {
+	margin: auto;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	border-top: solid 1px #687291;
+}
+
+section:nth-child(odd) {
+	background-color: #DFE1E7;
+}
+
+section:nth-child(even) {
+	background-color: #EEEFF2;
+}
+
+section:last-child {
+	background-color: #687291;
+	border: solid 4px black;
+}
+
+section:last-child h2 {
+  	padding: 25px 0;
+}
+
+h2 {
+	margin-top: 5px;
+	font-size: 40px;
+	font-weight: lighter;
+}
